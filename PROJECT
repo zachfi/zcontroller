@@ -7,4 +7,22 @@ layout:
 - go.kubebuilder.io/v3
 projectName: zcontroller
 repo: github.com/zachfi/zcontroller
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  domain: zach.fi
+  group: junos
+  kind: Device
+  path: github.com/zachfi/zcontroller/api/v1
+  version: v1
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: zach.fi
+  group: junos
+  kind: Fleet
+  path: github.com/zachfi/zcontroller/api/v1
+  version: v1
 version: "3"

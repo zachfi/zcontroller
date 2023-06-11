@@ -4,6 +4,8 @@ go 1.19
 
 require (
 	github.com/go-kit/log v0.2.1
+	github.com/onsi/ginkgo/v2 v2.6.0
+	github.com/onsi/gomega v1.24.1
 	github.com/zachfi/zkit v0.1.1-0.20230519172131-7521abe82519
 	k8s.io/apimachinery v0.26.0
 	k8s.io/client-go v0.26.0
